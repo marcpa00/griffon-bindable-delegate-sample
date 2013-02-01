@@ -101,7 +101,7 @@ griffon {
     doc {
         logo = '<a href="http://griffon-framework.org" target="_blank"><img alt="The Griffon Framework" src="../img/griffon.png" border="0"/></a>'
         sponsorLogo = "<br/>"
-        footer = "<br/><br/>Made with Griffon (1.0.1-SNAPSHOT)"
+        footer = "<br/><br/>Made with Griffon (@griffon.version@)"
     }
 }
 
@@ -191,4 +191,5 @@ log4j = {
 
 
 app.fileType = '.groovy'
+
 app.defaultPackageName = 'form'
