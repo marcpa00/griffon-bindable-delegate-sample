@@ -11,9 +11,3 @@
  * - execInsideUIAsync { // your code }
  * - execInsideUISync { // your code }
  */
-Thread.start {
-	sleep(10000)
-	app.execInsideUIAsync {
-		app.models['form'].address = 'overriden'
-	}
-}	
