@@ -34,6 +34,8 @@ class FormController {
 		println "Name: ${model.name}"
 		println "Last Name: ${model.lastName}"
 		println "Address: ${model.address}"
+        println "Person delegate: ${model.person.dump()}"
+
 	}
 
 }
