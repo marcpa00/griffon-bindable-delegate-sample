@@ -30,4 +30,4 @@ http://griffon-user.3225736.n2.nabble.com/Bind-in-the-view-and-Bind-PropertyList
 @Bindable and @Delegate are not magically combined.
 
 So I took the ideas exposed by Rick in that thread and came with the idea of using a callback to "percolate" 
-property change event from domain to griffom model and applied that on a small working example taken from the book.
+property change event from domain to griffon model and applied that on a small working example taken from the book.
